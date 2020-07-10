@@ -1,0 +1,44 @@
+[
+    {
+        "thumbnail":"./img/cayman.png",
+        "title":"Gateway - Cayman Islands",
+        "githubButton":"https://github.com/Jrez300/Gateway-Project-2nd-iteration",
+        "netlifyButton":"https://gateway-project-2nd-iteration.netlify.app/"
+    },
+    {
+        "thumbnail":"./img/readysetlife.png",
+        "title":"Ready.Set.Life Hackathon",
+        "githubButton":"https://github.com/Jrez300/Get.Read.Life-Hackathon",
+        "netlifyButton":"https://hackathon-get-ready-life.netlify.app/"
+    },
+
+    {
+        "thumbnail":"./img/ecommerce.png",
+        "title":"Yeezy Kicks - Ecommerce",
+        "githubButton":"https://github.com/Jrez300/ecommerceREACT",
+        "netlifyButton":"https://ecommerceinreact.netlify.app/"
+    },
+
+    {
+        "thumbnail":"./img/hotel.png",
+        "title":"Hotel Website",
+        "githubButton":"https://github.com/Jrez300/Hotel_website",
+        "netlifyButton":"https://hotel-website-r2h.netlify.app/"
+    },
+
+    {
+        "thumbnail":"./img/todoAPP.png",
+        "title":"MERN Comment App",
+        "githubButton":"",
+        "netlifyButton":""
+    },
+
+    {
+        "thumbnail":"./img/techcrunch.png",
+        "title":"TechCrunch-Redesign",
+        "githubButton":"",
+        "netlifyButton":""
+    }
+
+
+]
