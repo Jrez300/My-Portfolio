@@ -81,7 +81,7 @@ class ValidationForm extends React.Component{
         // event.preventDefault();
         const isValid = this.validate();
         if (isValid) {
-            
+        
           console.log(this.state);
           alert("Form Submitted Successfully!")
           // clear form
@@ -93,7 +93,7 @@ render(){
 
 return (
     
-    <form name="contact" class="contactform" onSubmit={this.handleSubmit}  data-netlify="true" method="POST">
+    <form  class="contactform" onSubmit={this.handleSubmit} action="https://formsubmit.co/joseperez940@live.com" method='POST'>
 
 <label htmlFor="fname">First Name</label>
 <input type="text" id="fname" name="fname" value={this.state.fname} onChange={this.handleChange}placeholder="Your name.."/>
