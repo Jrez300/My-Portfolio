@@ -29,15 +29,15 @@
     {
         "thumbnail":"./img/todoAPP.png",
         "title":"MERN Comment App",
-        "githubButton":"",
-        "netlifyButton":""
+        "githubButton":"https://github.com/Jrez300/mern-todolist",
+        "netlifyButton":"https://mern-comment-app.netlify.app/"
     },
 
     {
         "thumbnail":"./img/techcrunch.png",
         "title":"TechCrunch-Redesign",
-        "githubButton":"",
-        "netlifyButton":""
+        "githubButton":"https://github.com/Jrez300/techcrunchredesign-",
+        "netlifyButton":"https://techcrunchredesign.netlify.app/"
     }
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../NavBar/navbar'
 import Footer from '../Footer/footer'
-import Form from '../Content/form'
+import Form from '../Content/contactcontent'
 
 function Contact(){
         return(

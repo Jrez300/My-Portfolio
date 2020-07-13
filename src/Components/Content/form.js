@@ -92,7 +92,7 @@ render(){
 
 return (
     
-    <form class="contactform" onSubmit={this.handleSubmit} netlify>
+    <form class="contactform" onSubmit={this.handleSubmit} data-netlify='true'>
 
 <label htmlFor="fname">First Name</label>
 <input type="text" id="fname" name="fname" value={this.state.fname} onChange={this.handleChange}placeholder="Your name.."/>

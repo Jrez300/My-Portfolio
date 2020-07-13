@@ -1,16 +1,16 @@
 import React from 'react'
 import Navbar from '../NavBar/navbar'
-import Homecontent from '../Content/homecontent'
+import Projects from '../Content/projects'
 import Footer from '../Footer/footer'
 
 
-function Home(){
+function ProjectPage(){
 
         return(
 
             <div className="Home">
             <Navbar/>
-            <Homecontent/>
+            <Projects/>
             <Footer/>
            </div>
 
@@ -20,4 +20,4 @@ function Home(){
 
 }
 
-export default Home
+export default ProjectPage

@@ -12,7 +12,8 @@ function NavBar(){
 <p className="name"> Jose Perez </p>
 <nav className='navBar'>
     <ul>
-        <li ><Link to='/' className='Navbutton'>Projects</Link></li>
+    <li > <Link to='/' className='Navbutton'>Home</Link></li>
+        <li ><Link to='/projects' className='Navbutton'>Projects</Link></li>
         <li ><Link to='/contact' className='Navbutton'>Contact</Link></li>
     </ul>
 </nav>
