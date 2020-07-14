@@ -26,7 +26,8 @@ class ValidationForm extends React.Component{
         });
     };
 
-    validate = () => {
+    validate = (event) => {
+        
         let errorfname = '';
         let errorlname = '';
         let errorpnumber= '';
@@ -67,9 +68,10 @@ class ValidationForm extends React.Component{
           }  
           if (errorsubject){
             this.setState({errorsubject});
-            return false
-        }
 
+            return false
+            
+        }
 
           return true;
           
@@ -78,14 +80,16 @@ class ValidationForm extends React.Component{
     };
 
     handleSubmit = event => {
-        // event.preventDefault();
         const isValid = this.validate();
         if (isValid) {
-        
           console.log(this.state);
           alert("Form Submitted Successfully!")
           // clear form
           this.setState(initialState);
+        }
+        else if (!isValid){
+            event.preventDefault();
+
         }
 };
 
@@ -93,7 +97,7 @@ render(){
 
 return (
     
-    <form  class="contactform" onSubmit={this.handleSubmit} action="https://formsubmit.co/joseperez940@live.com" method='POST'>
+    <form  class="contactform" onSubmit={this.handleSubmit}  action="https://formsubmit.co/joseperez940@live.com" method='POST'>
 
 <label htmlFor="fname">First Name</label>
 <input type="text" id="fname" name="fname" value={this.state.fname} onChange={this.handleChange}placeholder="Your name.."/>

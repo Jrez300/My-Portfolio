@@ -8,7 +8,7 @@ function Projects() {
            
             <div className= "Home">
              
-            <div className="project-container">
+            <div className="project-container2">
               
 
                 {Data.map((value) => {

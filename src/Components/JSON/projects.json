@@ -38,6 +38,31 @@
         "title":"TechCrunch-Redesign",
         "githubButton":"https://github.com/Jrez300/techcrunchredesign-",
         "netlifyButton":"https://techcrunchredesign.netlify.app/"
+    },
+    {
+        "thumbnail":"./img/gateway-1st-iteration.png",
+        "title":"Gateway - Cayman Islands - 1st iteration",
+        "githubButton":"https://github.com/Jrez300/gateway-1st-iteration",
+        "netlifyButton":"https://gatewayproject-1st-iteration.netlify.app/index.html"
+    },
+    {
+        "thumbnail":"./img/tic-tac-toe-r2h.png",
+        "title":"Tic-Tac-Toe-R2H",
+        "githubButton":"https://github.com/Jrez300/TicTacToe-Repo",
+        "netlifyButton":"https://tic-tac-toe-repo.netlify.app/"
+    },
+
+    {
+        "thumbnail":"./img/r2h-todo-list.png",
+        "title":"R2H Todo-List",
+        "githubButton":"https://github.com/Jrez300/To-Do-List-React",
+        "netlifyButton":"https://to-do-list-react-r2h.netlify.app/"
+    },
+    {
+        "thumbnail":"./img/voice-recognition.png",
+        "title":"Voice Recognition App",
+        "githubButton":"https://github.com/Jrez300/voice-recognition-app",
+        "netlifyButton":"https://voice-recognition-game.netlify.app/"
     }
 
 
