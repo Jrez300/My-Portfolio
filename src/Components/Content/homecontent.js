@@ -12,7 +12,7 @@ function homecontent() {
 
             <section className='aboutMe'>
 
-                <p >I am an aspiring web developer ready to raise the bar in our ever changing world of technology. Living in Charlotte NC where change is in every corner, Im intrigued to transform the web just as my environment. Lets work together and create something new, not just for us but for the foundation of the future. </p>
+                <p >I am an aspiring web developer ready to raise the bar in our ever changing world of technology. Living in Charlotte NC where change is in every corner, I'm intrigued to transform the web just as my environment. Let's work together and create something new, not just for us but for the foundation of the future.</p>
 
             </section>
             <section className='skills'>

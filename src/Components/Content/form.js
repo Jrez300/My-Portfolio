@@ -85,7 +85,7 @@ class ValidationForm extends React.Component{
           console.log(this.state);
           alert("Form Submitted Successfully!")
           // clear form
-          this.setState(initialState);
+        //   this.setState(initialState);
         }
         else if (!isValid){
             event.preventDefault();
