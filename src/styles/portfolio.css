@@ -2,7 +2,7 @@
 
 html,
 body {
-    background-image: url("../img/water.jpg");
+    background-clip: url("../img/tech3.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     font-family: 'Comfortaa', cursive;
@@ -397,7 +397,7 @@ margin-bottom: 20px;
         max-width: 1700px;
         width: 100%;
         height: 100%;
-        background-image: url("../img/water.jpg");
+        background-image: url("../img/tech3.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
         font-family: 'Comfortaa', cursive;
@@ -451,7 +451,7 @@ margin-bottom: 20px;
         max-width:400px;
         width: 100%;
         height: 100%;
-        background-image: url("../img/water.jpg");
+        background-image: url("../img/tech3.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
         font-family: 'Comfortaa', cursive;

@@ -63,7 +63,14 @@
         "title":"Voice Recognition App",
         "githubButton":"https://github.com/Jrez300/voice-recognition-app",
         "netlifyButton":"https://voice-recognition-game.netlify.app/"
+    },
+    {
+        "thumbnail":"./img/animated_nav.png",
+        "title":"Animated Navigation",
+        "githubButton":"https://github.com/Jrez300/Animated-Navbar",
+        "netlifyButton":"https://animated-navbar-r2h.netlify.app/"
     }
+
 
 
 ]
