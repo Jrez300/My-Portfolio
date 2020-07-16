@@ -27,7 +27,7 @@ function homecontent() {
                 </ul>
             </section>
         <section className="resume">
-            <button className='resumeButton'><a href={Pdf} target="_blank" rel="noopener noreferrer" className='resumeButton'> Resumé</a></button>
+            <a href={Pdf} target="_blank" rel="noopener noreferrer" className='resumeButton'> Resumé</a>
         </section>
         <p className="highlights"> My Projects </p>
         <div className="project-container">

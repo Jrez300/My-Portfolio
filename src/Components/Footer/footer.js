@@ -14,7 +14,7 @@ function Footer(){
                     </ul>
 
                 </nav>
-
+            <p className='updated'>Last Update: 7/17/2020</p>
             </footer>
         </div>
 

@@ -127,7 +127,7 @@ return (
 
 <label for="subject">Message Me</label>
 <textarea id="subject" name="subject" value={this.state.subject} onChange={this.handleChange}placeholder="Write message.." style={{height:'200px'}}></textarea>
-<div style={{fontSize:12, color:"red"}}>
+<div style={{fontSize:12, fontWeight:"bold", color:"red"}}>
     {this.state.errorsubject}
 </div>
 

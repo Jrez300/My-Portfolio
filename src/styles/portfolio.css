@@ -13,7 +13,7 @@ body {
 
 .navContainer {
     width:100%;
-    max-width: 800px;
+    max-width:1024px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -57,8 +57,8 @@ a.moreProjects {
     font-weight: bold;
     border-radius: 25px;
     border-color: white;
-    border-bottom: 2px solid;
-    border-top: 2px solid;
+    border-bottom: 3px solid;
+    border-top: 1px solid;
     cursor: pointer;
     text-decoration: none;
     margin-bottom: 60px;
@@ -189,27 +189,27 @@ a.moreProjects:hover {
     
 }
 
-
-.resumeButton {
-    padding: 5px;
+a.resumeButton {
+    padding: 10px;
     background: none;
     color:white;
-   
     text-decoration: none;
-    font-weight:none;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 20px;
-    border-color: whitesmoke;
+    border-radius: 25px;
+    border-bottom: 3px solid;
+    border-top: 1px solid;
+    border-color: white;
     cursor: pointer;
-}
-.resumeButton:hover {
+    text-align: center;
+    outline: none;
+    
+  }
+  .resumeButton:hover{
     background-color: white; 
     color: #033c5c;
+    font-weight: bold;
     border-radius: 25px;
     transition-duration: 0.5s;
-    
-}
+  }
 
 .highlights{
     font-size: 30px;
@@ -221,7 +221,7 @@ a.moreProjects:hover {
 
 
 .thumbnail{
-    width: 400px;
+    width: 300px;
     height: 200px;
     grid-area: thumbnail;
     justify-self: center;
@@ -259,6 +259,11 @@ a.moreProjects:hover {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 20px;
+}
+.updated {
+    width: 100%;
+   text-align: center;
+   font-size: 10px;
 }
 
 .profilePic{
@@ -311,6 +316,7 @@ a.moreProjects:hover {
   .submitbuttonContainer{
 margin-left: auto;
 margin-right: auto;
+margin-top: 15px;
 margin-bottom: 20px;
   }
 
@@ -417,12 +423,16 @@ margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
 }
-
+.thumbnail{
+    width: 400px;
+    height: 200px;
+    grid-area: thumbnail;
+    justify-self: center;
+}
 .project-container{
 
         display: grid;
         grid-template-columns:  1fr 1fr 1fr;
-     
         justify-items: center;
   
 }
@@ -432,4 +442,93 @@ margin-bottom: 20px;
     justify-items: center;
     margin-top: 70px;
 }
+}
+/* Mobile */
+
+@media only screen and (max-width: 400px) {
+    html,
+    body{
+        max-width:400px;
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/water.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-family: 'Comfortaa', cursive;
+        color: white;
+    }
+
+.navContainer {
+    width:100%;
+    max-width: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:
+     200px 100px 60px ;
+    grid-template-areas: 
+    
+    '. logo logo .'
+    'name name name name'
+    'navbar navbar navbar navbar'
+    
+    ;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thumbnail{
+    width: 300px;
+    height: 200px;
+    grid-area: thumbnail;
+    justify-self: center;
+}
+.project-container{
+
+        display: grid;
+        grid-template-columns:   1fr ;
+        justify-items: center;
+  
+}
+.project-container2{
+    display: grid;
+    grid-template-columns:  1fr  ;
+    justify-items: center;
+    margin-top: 70px;
+}
+.aboutMe p {
+    font-size: 15px;
+    font-weight: bold;
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   
+}
+.navBar li {
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+.more-container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    margin: 0px;
+    justify-items: center;
+   grid-template-areas: 
+   'more more more';
+ 
+  
+}
+.skills li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+
 }
